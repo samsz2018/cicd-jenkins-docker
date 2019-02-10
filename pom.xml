@@ -45,7 +45,10 @@
   	</distributionManagement>
 	
 <build>
-    <plugins>
+    <properties>
+    <failOnMissingWebXml>false</failOnMissingWebXml>   
+    </properties>
+<plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
